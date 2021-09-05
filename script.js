@@ -48,7 +48,7 @@ function checkInputs() {
     let temp = 0;
     setInterval(() => {
         if (temp === 0 && usernameValue !== '' && isEmail(emailValue) && password1Value !== '' && password1Value === password2Value) {
-            window.alert("Account created successfully");
+            window.alert("Success");
             temp += 1;
         }
     }, 10);
